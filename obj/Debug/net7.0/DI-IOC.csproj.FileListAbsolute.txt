@@ -1,0 +1,15 @@
+E:\tutorial\c#\DI-IOC\bin\Debug\net7.0\DI-IOC.exe
+E:\tutorial\c#\DI-IOC\bin\Debug\net7.0\DI-IOC.deps.json
+E:\tutorial\c#\DI-IOC\bin\Debug\net7.0\DI-IOC.runtimeconfig.json
+E:\tutorial\c#\DI-IOC\bin\Debug\net7.0\DI-IOC.dll
+E:\tutorial\c#\DI-IOC\bin\Debug\net7.0\DI-IOC.pdb
+E:\tutorial\c#\DI-IOC\obj\Debug\net7.0\DI-IOC.csproj.AssemblyReference.cache
+E:\tutorial\c#\DI-IOC\obj\Debug\net7.0\DI-IOC.GeneratedMSBuildEditorConfig.editorconfig
+E:\tutorial\c#\DI-IOC\obj\Debug\net7.0\DI-IOC.AssemblyInfoInputs.cache
+E:\tutorial\c#\DI-IOC\obj\Debug\net7.0\DI-IOC.AssemblyInfo.cs
+E:\tutorial\c#\DI-IOC\obj\Debug\net7.0\DI-IOC.csproj.CoreCompileInputs.cache
+E:\tutorial\c#\DI-IOC\obj\Debug\net7.0\DI-IOC.dll
+E:\tutorial\c#\DI-IOC\obj\Debug\net7.0\refint\DI-IOC.dll
+E:\tutorial\c#\DI-IOC\obj\Debug\net7.0\DI-IOC.pdb
+E:\tutorial\c#\DI-IOC\obj\Debug\net7.0\DI-IOC.genruntimeconfig.cache
+E:\tutorial\c#\DI-IOC\obj\Debug\net7.0\ref\DI-IOC.dll
