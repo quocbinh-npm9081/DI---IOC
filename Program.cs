@@ -1,37 +1,36 @@
 ﻿namespace DIIOC{
-    class ClassC {
-        public void ActionC() => Console.WriteLine("Action in ClassC");
+    interface Ivoid{
+        public void SayHello();
     }
-
-    class ClassB {
-        // Phụ thuộc của ClassB là ClassC
-        ClassC c_dependency;
-
-        public ClassB(ClassC classc) => c_dependency = classc;
-        public void ActionB()
-        {
-            Console.WriteLine("Action in ClassB");
-            c_dependency.ActionC();
+    class CVoidVN: Ivoid{
+        public void SayHello(){
+            Console.WriteLine("xin chao");
+        }
+    }
+    class CVoidEN: Ivoid{
+        public void SayHello(){
+            Console.WriteLine("Hello");
         }
     }
 
-    class ClassA {
-        // Phụ thuộc của ClassA là ClassB
-        ClassB b_dependency;
+    class CPeople{
+        Ivoid voidHello;
+        public CPeople(){
 
-        public ClassA(ClassB classb) => b_dependency = classb;
-        public void ActionA()
-        {
-            Console.WriteLine("Action in ClassA");
-            b_dependency.ActionB();
+        }
+        public  CPeople(Ivoid voidHello) => this.voidHello = voidHello;
+        public void Hello(){
+            voidHello.SayHello();
         }
     }
+
     class Program{
         static void Main(string[] args){
-            ClassC classc = new ClassC();
-            ClassB classb = new ClassB(classc);
-            ClassA classa = new ClassA(classb);
-            classa.ActionA();
+            CVoidEN voidEN = new CVoidEN();
+            CVoidVN voidVN = new CVoidVN();
+            CPeople nguoiVn = new CPeople(voidVN);
+            CPeople nguoiMy = new CPeople(voidEN);
+            nguoiVn.Hello();
         }
     }
 }
