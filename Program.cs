@@ -18,7 +18,7 @@
         public CPeople(){
 
         }
-        public  CPeople(Ivoid voidHello) => this.voidHello = voidHello;
+        public CPeople(Ivoid voidHello) => this.voidHello = voidHello;
         public void Hello(){
             voidHello.SayHello();
         }

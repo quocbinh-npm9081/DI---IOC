@@ -1,8 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "5K4x6na5Xzx38nT2zXdzQJypiEO03bLZxLy1NgecejYKo7SDoqCVYZ0nTsopJp4ZPLT1cC3AJnqRk/LjrdUm0w==",
+  "dgSpecHash": "rkYv448j3rHb+6MUuEtbKqoJVjQ/LGyp3T2l5wauO8tNofgSdKzU5CJF+RMUeaMnjJTDJPfja5n2TYtQ9mmegQ==",
   "success": true,
   "projectFilePath": "E:\\tutorial\\c#\\DI-IOC\\DI-IOC.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "C:\\Users\\ACER\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
